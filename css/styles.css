@@ -6,12 +6,68 @@ body {
 }
 
 .gradient {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 64, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  background: rgb(116, 9, 121);
+  background: linear-gradient(90deg, rgba(116, 9, 121, 1) 0%, rgba(72, 86, 172, 1) 0%, rgba(61, 105, 184, 1) 2%, rgba(42, 93, 207, 1) 47%, rgba(0, 212, 255, 1) 100%);
 }
 
 .page-header {
   margin-top: 4rem;
   font-size: 1.25rem;
   color: #fff;
+}
+
+.about {
+  color: #fff; 
+}
+
+.about ul {
+  padding-left: 2rem;
+  /* list-style-type: none; */
+}
+
+.about ul li {
+  padding-left: 2rem;
+  background-color: url(../img/check.svg);
+  background-repeat: no-repeat;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  color: #fff;
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  background-color: whitesmoke;
+}
+
+.gallery img {
+  border-radius: 10px;
+}
+
+.services {
+  color: #151515;
+}
+
+.contact {
+  background-color: whitesmoke;
+}
+
+footer {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
